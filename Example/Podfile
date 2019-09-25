@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HSYToolsClassKit_Example' do
+  pod 'HSYToolsClassKit', :path => '../'
+
+  target 'HSYToolsClassKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
