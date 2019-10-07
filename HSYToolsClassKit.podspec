@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/317398895@qq.com/HSYToolsClassKit'
+  s.homepage         = 'https://github.com/huangsongyao/HSYToolsClassKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '317398895@qq.com' => '317398895@qq.com' }
-  s.source           = { :git => 'https://github.com/317398895@qq.com/HSYToolsClassKit.git', :tag => s.version.to_s }
+  s.author           = { '317398895@qq.com' => 'huangsongyao' }
+  s.source           = { :git => 'https://github.com/huangsongyao/HSYToolsClassKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HSYToolsClassKit/Classes/**/*'
+  s.source_files = 'HSYToolsClassKit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'HSYToolsClassKit' => ['HSYToolsClassKit/Assets/*.png']

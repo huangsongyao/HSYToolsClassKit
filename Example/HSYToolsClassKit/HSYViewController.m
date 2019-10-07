@@ -7,6 +7,7 @@
 //
 
 #import "HSYViewController.h"
+#import "HYSDecimalNumber.h"
 
 @interface HSYViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSDecimalNumber *decimalNumber = [HYSDecimalNumber hsy_decimalString:@"11.11"];
+    BOOL less = [decimalNumber hsy_lessThan:@"1.1"];
+    BOOL greater = [decimalNumber hsy_greaterThan:@"1.1"];
+    BOOL equal = [decimalNumber hsy_isEqualThan:@"1.1"];
+    NSLog(@"");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
