@@ -8,6 +8,7 @@
 
 #import "HSYViewController.h"
 #import "HYSDecimalNumber.h"
+#import "HSYGestureTools.h"
 
 @interface HSYViewController ()
 
@@ -22,7 +23,10 @@
     BOOL less = [decimalNumber hsy_lessThan:@"1.1"];
     BOOL greater = [decimalNumber hsy_greaterThan:@"1.1"];
     BOOL equal = [decimalNumber hsy_isEqualThan:@"1.1"];
-    NSLog(@"");
+    NSLog(@"less => %@, greater => %@, equal => %@", @(less), @(greater), @(equal));
+    [HSYGestureTools hsy_tapGesture:self.view touchTapGestureBlock:^(UIGestureRecognizer * _Nonnull gesture, UIView * _Nonnull touchView, CGPoint location) {
+        NSLog(@"touchView => %@, location => %@", touchView, NSStringFromCGPoint(location));
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

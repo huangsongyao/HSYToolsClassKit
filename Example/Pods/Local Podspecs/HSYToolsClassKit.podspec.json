@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HSYToolsClassKit/Classes/**/*.{h,m}"
+  "source_files": "HSYToolsClassKit/Classes/**/*.{h,m}",
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ],
+    "HSYMacroKit": [
+
+    ],
+    "HSYMethodsToolsKit": [
+
+    ]
+  }
 }

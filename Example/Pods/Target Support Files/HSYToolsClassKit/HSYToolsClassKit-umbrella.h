@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HSYGestureTools.h"
 #import "HYSDecimalNumber.h"
 
 FOUNDATION_EXPORT double HSYToolsClassKitVersionNumber;
