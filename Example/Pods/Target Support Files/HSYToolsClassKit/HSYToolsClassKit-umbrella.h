@@ -10,8 +10,10 @@
 #endif
 #endif
 
-#import "HSYGestureTools.h"
+#import "HSYAirgasWindows.h"
 #import "HYSDecimalNumber.h"
+#import "HSYGestureTools.h"
+#import "HYSWindows.h"
 
 FOUNDATION_EXPORT double HSYToolsClassKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char HSYToolsClassKitVersionString[];
