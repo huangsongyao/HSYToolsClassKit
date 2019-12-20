@@ -35,7 +35,7 @@
 {
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] init];
     [inView addGestureRecognizer:tapGesture];
-    [tapGesture hsy_touchGestureBlock:tap];
+    [tapGesture hsy_touchGestureBlock:tap]; 
     return tapGesture;
 }
 
@@ -55,5 +55,6 @@
     [pinchGesture hsy_touchGestureBlock:pinch];
     return pinchGesture;
 }
+
 
 @end

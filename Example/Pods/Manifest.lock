@@ -5,7 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - HSYMacroKit (0.1.4)
-  - HSYMethodsToolsKit (0.1.6):
+  - HSYMethodsToolsKit (0.1.7):
     - HSYMacroKit
     - JSONModel
     - Masonry
@@ -18,9 +18,9 @@ PODS:
   - JSONModel (1.8.0)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.3.1):
-    - SDWebImage/Core (= 5.3.1)
-  - SDWebImage/Core (5.3.1)
+  - SDWebImage (5.4.0):
+    - SDWebImage/Core (= 5.4.0)
+  - SDWebImage/Core (5.4.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -49,18 +49,18 @@ CHECKOUT OPTIONS:
     :commit: 16c2690a2f4315f0ddf1417bb11db33ffb36ac8b
     :git: https://github.com/huangsongyao/HSYMacroKit.git
   HSYMethodsToolsKit:
-    :commit: 3ffc061a1380a62266764dc6b044a9431206aa72
+    :commit: d4b6762d4cb7fca3ac34a5dd275a5a99ad4f4240
     :git: https://github.com/huangsongyao/HSYMethodsToolsKit.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   HSYMacroKit: 382477fb48caa2919542868a73ccc473bb331997
-  HSYMethodsToolsKit: a62273be7eb39600f8b98c432ed401cf259e2533
+  HSYMethodsToolsKit: f85ad2f542b19969c0d9c01c90b53b4734608671
   HSYToolsClassKit: 073d79d378e6d2a72861bf84bd954982a3f87b28
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
 
 PODFILE CHECKSUM: 8ce53e6dc99cf20056f38cb908d292db6e965e0b
 

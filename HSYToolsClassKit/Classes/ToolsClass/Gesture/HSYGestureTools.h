@@ -10,8 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^HSYGestureToolsTouchBlock)(UIGestureRecognizer *gesture, UIView *touchView, CGPoint location);
-
 @interface HSYGestureTools : NSObject
+
+//交互手势禁止触发的类的集合，即，shouldReceives中所存放的类名，在UIGestureRecognizerDelegate中将不会被触发
+@property (nonatomic, copy) NSArray<NSString *> *shouldReceives;
 
 /**
  单击手势
