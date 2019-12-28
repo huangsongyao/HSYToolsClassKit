@@ -41,7 +41,7 @@ typedef NS_ENUM(NSUInteger, kHSYJavaScriptsToolsLoadType) {
 
  @param userScripts 向web中注入JavaScript，格式为：@[WKUserScript_A, WKUserScript_B, ...]
  @param scriptMessageHandlers 向web中添加监听，格式为：@{id<添加过WKScriptMessageHandler委托的对像>delegate : @[@"JavaScript方法A", @"JavaScript方法B", ...]}
- @return 返回WKWeb的WKWebViewConfiguration配置项
+ @return 返回WKWeb的WKWebViewConfiguration配置项信息
  */
 + (WKWebViewConfiguration *)hsy_webViewConfiguration:(NSArray<WKUserScript *> *)userScripts
                             addScriptMessageHandlers:(NSDictionary<id, NSArray<NSString *> *> *)scriptMessageHandlers;
