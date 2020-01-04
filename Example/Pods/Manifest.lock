@@ -14,9 +14,11 @@ PODS:
   - HSYToolsClassKit (0.1.0):
     - HSYMacroKit
     - HSYMethodsToolsKit
+    - MBProgressHUD
     - ReactiveObjC
   - JSONModel (1.8.0)
   - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.4.0):
     - SDWebImage/Core (= 5.4.0)
@@ -33,6 +35,7 @@ SPEC REPOS:
     - FBSnapshotTestCase
     - JSONModel
     - Masonry
+    - MBProgressHUD
     - ReactiveObjC
     - SDWebImage
 
@@ -56,12 +59,13 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   HSYMacroKit: 382477fb48caa2919542868a73ccc473bb331997
   HSYMethodsToolsKit: f85ad2f542b19969c0d9c01c90b53b4734608671
-  HSYToolsClassKit: 073d79d378e6d2a72861bf84bd954982a3f87b28
+  HSYToolsClassKit: 73c298b8a12415184bab729f111e7dc9cad93fea
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
 
 PODFILE CHECKSUM: 8ce53e6dc99cf20056f38cb908d292db6e965e0b
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.6.1
